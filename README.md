@@ -1,4 +1,4 @@
-# NFTF
+# NTFT 
 标准时频变换函数
 The Normal Time-frequency Transform by time-function
 
