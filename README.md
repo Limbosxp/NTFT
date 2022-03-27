@@ -6,7 +6,7 @@ The Normal Time-frequency Transform by time-function
 
 ## 定义
 
-对于时间函数f(t), 其线性时频变换可以定义为
+对于时间函数<img src="https://latex.codecogs.com/svg.latex?f%28t%29">, 其线性时频变换可以定义为
 
 <div align=center>
 <img src="https://bkimg.cdn.bcebos.com/formula/8ebf34035f3012b8c42ffd23660b983c.svg" style="border:none;">
@@ -51,9 +51,9 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 
 2）<img src="https://bkimg.cdn.bcebos.com/formula/dc48e47dc117f280f81d27736ecb2375.svg">
 
-其中<img src="https://bkimg.cdn.bcebos.com/formula/a131c1e27b2abb83d5ca521073c27334.svg">表示“当且仅当”，<img src="https://bkimg.cdn.bcebos.com/formula/b7b1cb5a55a94c102664ddddbac53bf8.svg">表示“对于任意”，R 表示实数域。
+其中<img src="https://bkimg.cdn.bcebos.com/formula/a131c1e27b2abb83d5ca521073c27334.svg">表示“当且仅当”，<img src="https://bkimg.cdn.bcebos.com/formula/b7b1cb5a55a94c102664ddddbac53bf8.svg">表示“对于任意”，<img src="https://latex.codecogs.com/svg.latex?R">表示实数域。
 
-上述就是所谓的无为原理，它可简述为：一个和谐信号的标准时频变换沿谱脊线的取值正是这个和谐信号本身。关系1）表明，一个和谐信号的标准时频谱（振幅谱）极大值可以确定出这个和谐信号的频率<img src="https://bkimg.cdn.bcebos.com/formula/ea027d6202a985007785bbb2f1642553.svg">和振幅|A|，而关系 2）则表明沿着谱极大值线（脊线），和谐信号自动就显现出来（包含了当地相位）。这里，和谐信号的显现既没有利用逆变换，也没有利用滤波手段。如果非要说滤波，无为原理揭示的也是一种“线通”滤波思想。
+上述就是所谓的无为原理，它可简述为：一个和谐信号的标准时频变换沿谱脊线的取值正是这个和谐信号本身。关系1）表明，一个和谐信号的标准时频谱（振幅谱）极大值可以确定出这个和谐信号的频率<img src="https://bkimg.cdn.bcebos.com/formula/ea027d6202a985007785bbb2f1642553.svg">和振幅<img src="https://latex.codecogs.com/svg.latex?%5Cleft%20%7C%20A%20%5Cright%20%7C">，而关系 2）则表明沿着谱极大值线（脊线），和谐信号自动就显现出来（包含了当地相位）。这里，和谐信号的显现既没有利用逆变换，也没有利用滤波手段。如果非要说滤波，无为原理揭示的也是一种“线通”滤波思想。
 
 无为原理于2007被柳林涛发现 ，它是提出标准时频变换这一概念的基础。无为原理于2016年被俄罗斯科学家利用小波变换再次宣布。
 
@@ -95,7 +95,7 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 
 其中<img src="https://bkimg.cdn.bcebos.com/formula/29ecac7d98ef7b8b7d4399a961ff7b42.svg">为正的常数，它与t同量纲
 
-至此，人们可以检验一下：f(t)与它的标准时频变换<img src="https://bkimg.cdn.bcebos.com/formula/40ad481f04f04fa78e7aad8ac8a02b7b.svg">是同量纲的，这是无为原理能够成立的一种原因。
+至此，人们可以检验一下：<img src="https://latex.codecogs.com/svg.latex?f%28t%29">与它的标准时频变换<img src="https://bkimg.cdn.bcebos.com/formula/40ad481f04f04fa78e7aad8ac8a02b7b.svg">是同量纲的，这是无为原理能够成立的一种原因。
 
 无量纲的尺度调整函数可以有无限种设置形式。当设置<img src="https://bkimg.cdn.bcebos.com/formula/6a68f91298949ce230b39d548a374226.svg">，标准时频变换就是一种标准加伯变换（或标准短时傅里叶变换），这时，传统加伯变换已经由非卷积形式变为卷积形式了。当设置<img src="https://bkimg.cdn.bcebos.com/formula/76337bd04c8b5bcb3272de9cfe19889f.svg">，标准时频变换就是一种标准小波变换，只是这种小波变换是L1-norm形式，而非传统的L2-norm形式。当<img src="https://bkimg.cdn.bcebos.com/formula/2992fd4963c1d8d29432c4a86d64d0bd.svg">设置成其他形式，如<img src="https://bkimg.cdn.bcebos.com/formula/9291768acbd7595c8751d88cd51c30d8.svg">，这时的标准时频变换就是一种未被探索的新变换了。
 
@@ -137,7 +137,7 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 
 ## 预测模型
 
-对于如上的和谐信号h(t)，如果我们通过无为方法确定了其在<img src="https://bkimg.cdn.bcebos.com/formula/ff2b49f4999e38a46bcb3c4cdbccfa4f.svg">时刻的值<img src="https://bkimg.cdn.bcebos.com/formula/20562c0d38f6d9739496d6c2d8bbbcb7.svg">及其频率<img src="https://bkimg.cdn.bcebos.com/formula/ea027d6202a985007785bbb2f1642553.svg">，那么，该和谐信号在未来时刻<img src="https://bkimg.cdn.bcebos.com/formula/412b8557925159098e53feaafac9ab42.svg">的值可以如下预测：
+对于如上的和谐信号<img src="https://latex.codecogs.com/svg.latex?h%28t%29">，如果我们通过无为方法确定了其在<img src="https://bkimg.cdn.bcebos.com/formula/ff2b49f4999e38a46bcb3c4cdbccfa4f.svg">时刻的值<img src="https://bkimg.cdn.bcebos.com/formula/20562c0d38f6d9739496d6c2d8bbbcb7.svg">及其频率<img src="https://bkimg.cdn.bcebos.com/formula/ea027d6202a985007785bbb2f1642553.svg">，那么，该和谐信号在未来时刻<img src="https://bkimg.cdn.bcebos.com/formula/412b8557925159098e53feaafac9ab42.svg">的值可以如下预测：
 
 <div align=center>
 <img src="https://bkimg.cdn.bcebos.com/formula/c92940420cd52af79b87dfda0dabdb68.svg">
