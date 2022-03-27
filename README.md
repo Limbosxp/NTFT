@@ -108,7 +108,7 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 而<img src="https://bkimg.cdn.bcebos.com/formula/bf12fc2debfeb0296d207893d292f6b9.svg">的实部与虚部共同组成其相位谱。如果f(t)是实数（见图1），
 
 <div align=center>
-<img src="https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728b50711a96c4fcc3cec3fd2c21?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxMTY=,g_7,xp_5,yp_5/format,f_auto">
+<img src="https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728b50711a96c4fcc3cec3fd2c21?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxMTY=,g_7,xp_5,yp_5/format,f_auto" width="800">
 </div>
 
 <div align=center>
@@ -118,7 +118,7 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 则<img src="https://bkimg.cdn.bcebos.com/formula/5e959b943b5261cb4f09ecf69eb75f2a.svg">就是其振幅谱（见图2），
 
 <div align=center>
-<img src="https://bkimg.cdn.bcebos.com/pic/cefc1e178a82b9011ef155877f8da9773912ef22?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyMjA=,g_7,xp_5,yp_5/format,f_auto">
+<img src="https://bkimg.cdn.bcebos.com/pic/cefc1e178a82b9011ef155877f8da9773912ef22?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyMjA=,g_7,xp_5,yp_5/format,f_auto" width="800">
 </div>
 
 <div align=center>
@@ -128,7 +128,7 @@ ii) <img src="https://bkimg.cdn.bcebos.com/formula/663ba120fa2064045f4a1317d705d
 而<img src="https://bkimg.cdn.bcebos.com/formula/fed6aa5be6c1af5d0a9d9dae202b9e38.svg">的实部即其相位谱（见图3）。
 
 <div align=center>
-<img src="https://bkimg.cdn.bcebos.com/pic/5366d0160924ab18a750778339fae6cd7b890b3b?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxMTY=,g_7,xp_5,yp_5/format,f_auto">
+<img src="https://bkimg.cdn.bcebos.com/pic/5366d0160924ab18a750778339fae6cd7b890b3b?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxMTY=,g_7,xp_5,yp_5/format,f_auto" width="800">
 </div>
 
 <div align=center>
