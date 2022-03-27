@@ -1,11 +1,39 @@
-# NTFT 
-标准时频变换函数
+# NTFT
+
 The Normal Time-frequency Transform by time-function
 
-下载并解压到工程文件夹，使用matlab调用NTTF函数。
+<p style="text-indent:2em">
+标准时频变换是线性时频变换的标准化形式。该概念诞生于2009年，由柳林涛提出。标准时频变换可以用来提取时间序列中的周期或准周期信号，由此也可以实现对信号的预测。标准时频变换还可以应用于时间序列的常规时频分析（振幅分析和相位分析）。标准时频变换理论与应用一直处于发展之中。
+</p>
 
-Download and unzip it to the project folder, and use matlab to call the NTTF function.
+## 定义
 
-NTFT对经典的Gabor变换、小波变换进行了标准化，广义的S变换是调相标准小波变换，也是NTFT的一种特殊形式，而且时频变换还包含其他无数种未命名的变换，这些众多的时频变换构成了标准时频分析工具。特别是，这些众多的时频变换存在统一的逆变换定理，NTFT对于线性时频变换的系统化研究具有重要的意义。
+<p style="text-indent:2em">
+对于时间函数f(t), 其线性时频变换可以定义为
+</p>
 
-NTFT standardizes the classical Gabor transform and wavelet transform. The generalized S transform is a phase modulation standard wavelet transform and a special form of ntft. Moreover, the time-frequency transform also includes countless other unnamed transforms, which constitute a standard time-frequency analysis tool. In particular, there is a unified inverse transformation theorem for these many time-frequency transforms. Ntft is of great significance for the systematic research of linear time-frequency transform.
+<img src="https://bkimg.cdn.bcebos.com/formula/8ebf34035f3012b8c42ffd23660b983c.svg" style="border:none;">
+
+<p style="text-indent:2em">
+其中：
+</p>
+
+<p style="text-indent:2em">
+<img src="https://bkimg.cdn.bcebos.com/formula/ff2b49f4999e38a46bcb3c4cdbccfa4f.svg">表示当地时间，也可被认为考察时刻；
+</p>
+
+<p style="text-indent:2em">
+<img src="https://bkimg.cdn.bcebos.com/formula/6e997aa5812ef7bd11b9c1a5ee4def5e.svg">表示当地频率，也可被认为考察频率；
+</p>
+
+<p style="text-indent:2em">
+上划线表示共轭算子；
+</p>
+
+<p style="text-indent:2em">
+<img src="https://bkimg.cdn.bcebos.com/formula/1964ec61a3797b9a2b1786217556716b.svg" stype="border:none">称为核函数。
+</p>
+
+<p style="text-indent:2em">
+一个线性时频变换<img src="https://bkimg.cdn.bcebos.com/formula/40ad481f04f04fa78e7aad8ac8a02b7b.svg">
+</p>
