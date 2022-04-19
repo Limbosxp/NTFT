@@ -6,7 +6,8 @@ function coefs = ntft(sig, Frqs, win_len, fs, Window, method)
 %   coefs = ntft(sig, Frqs, win_len, fs, Window, method)
 %            Return a complex matrix containing the NTFT.
 %			 The rows of STOutput are the frequencies and the
-%			 columns are the time values
+%			 columns are the time values.
+%   sig - 
 % specified by METHOD:
 %     'Gaussian'        - (default) using the Gaussian window,
 %     'Hanning'         - using the Hanning window
